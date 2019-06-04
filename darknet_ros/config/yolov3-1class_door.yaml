@@ -1,0 +1,11 @@
+yolo_model:
+
+  config_file:
+    name: yolov3-obj_1class_door.cfg
+  weight_file:
+    name: yolov3-obj_1class_door_final.weights
+  threshold:
+    value: 0.2
+  detection_classes:
+    names:
+      - door
